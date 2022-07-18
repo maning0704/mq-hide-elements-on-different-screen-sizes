@@ -1,0 +1,12 @@
+@import url(sanitize.css);
+
+div.example{
+    background-color: yellow;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px){
+    div.example{
+        display: none;
+    }
+}
